@@ -1,0 +1,23 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_ruiji
+    username: root
+    password: 8787521
+    type: com.alibaba.druid.pool.DruidDataSource
+#  main:
+#    banner-mode: off
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+  global-config:
+    banner: off
+    db-config:
+      id-type: assign_id
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+server:
+  port: 8080
