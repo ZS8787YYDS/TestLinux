@@ -14,7 +14,7 @@ public class TestController {
     public String testHello()
     {
         log.info("啥也不是吊毛");
-        return "Hello，World！！！";
+        return "肚子饿了 吃饭去!!!";
     }
 
 }
