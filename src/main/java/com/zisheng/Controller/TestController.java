@@ -13,8 +13,8 @@ public class TestController {
     @GetMapping
     public String testHello()
     {
-        log.info("啥也不是吊毛");
-        return "吊毛 啥也不是 真是 吃饭去!!!";
+        log.info("明天计算机二级考试");
+        return "饿死了 吃饭吃饭！！！";
     }
 
 }
